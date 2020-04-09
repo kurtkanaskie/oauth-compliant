@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ProxyEndpoint name="default">
+    <PreFlow name="PreFlow">
+        <Request>
+            <Step>
+                <Name>OA-Generate-ClientCredentials</Name>
+            </Step>
+        </Request>
+        <Response>
+            <Step>
+                <Condition>oauthV2.failed = false</Condition>
+                <Name>AM-TokenResponse</Name>
+            </Step>
+            <Step>
+                <Condition>oauthV2.failed = true</Condition>
+                <Name>AM-ContentType</Name>
+            </Step>
+            <Step>
+                <Condition>oauthV2.failed = true</Condition>
+                <Name>EV-Error</Name>
+            </Step>
+            <Step>
+                <Condition>oauthV2.failed = true</Condition>
+                <Name>RF-Error</Name>
+            </Step>
+        </Response>
+    </PreFlow>
+    <Flows/>
+    <PostFlow name="PostFlow">
+        <Request/>
+        <Response/>
+    </PostFlow>
+    <HTTPProxyConnection>
+        <BasePath>/oauth-compliant</BasePath>
+        <VirtualHost>secure</VirtualHost>
+    </HTTPProxyConnection>
+    <RouteRule name="noroute"/>
+</ProxyEndpoint>

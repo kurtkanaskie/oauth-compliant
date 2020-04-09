@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage async="false" continueOnError="false" enabled="true" name="AM-TokenResponse">
+    <DisplayName>AM-TokenResponse</DisplayName>
+    <Set>
+        <Headers/>
+        <Payload contentType="application/json">
+{
+    "token_type": "Bearer",
+    "access_token": "{apigee.access_token}",
+    "issued_at": {oauthv2accesstoken.OA-Generate-ClientCredentials.issued_at},
+    "expires_in": {oauthv2accesstoken.OA-Generate-ClientCredentials.expires_in},
+    "scope": "{oauthv2accesstoken.OA-Generate-ClientCredentials.scope}"
+}
+</Payload>
+    </Set>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+    <AssignTo createNew="false" transport="http" type="response"/>
+</AssignMessage>

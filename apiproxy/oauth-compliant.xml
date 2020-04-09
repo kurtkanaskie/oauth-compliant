@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="oauth-compliant">
+    <Basepaths>/oauth-default</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1586460057952</CreatedAt>
+    <CreatedBy>defaultUser</CreatedBy>
+    <Description>OAuth proxy example that corrects non-compliant behavior of OAuth policy.</Description>
+    <DisplayName>oauth-compliant</DisplayName>
+    <LastModifiedAt>1586460090253</LastModifiedAt>
+    <LastModifiedBy>defaultUser</LastModifiedBy>
+    <ManifestVersion>SHA-512:dcd40f5f82cbeef49958034da5d6eee3e553a50309ca8b290c8cd29ed05e0547ba9c1c102fce7cdf7181ac8d5788200f96d781b91cfee4b988d07bc04a94c333</ManifestVersion>
+    <Policies>
+        <Policy>AM-ContentType</Policy>
+        <Policy>AM-TokenResponse</Policy>
+        <Policy>EV-Error</Policy>
+        <Policy>OA-Generate-ClientCredentials</Policy>
+        <Policy>RF-Error</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints/>
+</APIProxy>

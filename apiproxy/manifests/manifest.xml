@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="AM-ContentType" version="SHA-512:7ff6a693e243f8c8655ada25a9cb5bb812b38baaf6388e8e2fbed4a0a91e775e6baba2833c60d7fda96367e0ab1b1ffac3cb10b7662ea0f17027894722a5d99b"/>
+        <VersionInfo resourceName="AM-TokenResponse" version="SHA-512:9dc53cbeba0871950e5b4275f846bde5079eb6fe20f87b9d57b383fc46857fcf2d145beaae55eada772171a2675eee42988993b74c05fd7796c363055c7e77cc"/>
+        <VersionInfo resourceName="EV-Error" version="SHA-512:a346e3209a888195e18d67c5165117b831eaf8ca047dce03ff02b8f7fa3416d2985b72b9597c06c4c8044749e6ab3c80a33c97b3f0bd3ea46e0b579abf43fa83"/>
+        <VersionInfo resourceName="OA-Generate-ClientCredentials" version="SHA-512:fa74212e51202817dff6e830d2379056ba335d1565fe3b320180910bdd2beb1620c166472de4fc85549b9163670580056af9b0047071ab362fea75dcdb0ced2d"/>
+        <VersionInfo resourceName="RF-Error" version="SHA-512:a82ef664c6da2fbbac93771657f9446bb29879aac0bcff03f93386b8c4320fa1e041cdb9a4e3e42657d73b33a891375331a5271a61339291ff23bb332b341311"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:99102e4a1678cba174afe158538ead3f5a1c4a2cb5f20920c7b8b5b292a206f606ecf71a0dd0107b46956bd4f71cc6424f7bfd512d9d8d387d8f11ee30fbbe0b"/>
+    </ProxyEndpoints>
+    <Resources/>
+    <SharedFlows/>
+    <TargetEndpoints/>
+</Manifest>
