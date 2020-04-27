@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<APIProxy revision="1" name="oauth-compliant">
+<APIProxy revision="2" name="oauth-compliant">
     <Basepaths>/oauth-default</Basepaths>
     <ConfigurationVersion majorVersion="4" minorVersion="0"/>
     <CreatedAt>1586460057952</CreatedAt>
     <CreatedBy>defaultUser</CreatedBy>
     <Description>OAuth proxy example that corrects non-compliant behavior of OAuth policy.</Description>
     <DisplayName>oauth-compliant</DisplayName>
-    <LastModifiedAt>1586460090253</LastModifiedAt>
+    <LastModifiedAt>1588005671556</LastModifiedAt>
     <LastModifiedBy>defaultUser</LastModifiedBy>
-    <ManifestVersion>SHA-512:dcd40f5f82cbeef49958034da5d6eee3e553a50309ca8b290c8cd29ed05e0547ba9c1c102fce7cdf7181ac8d5788200f96d781b91cfee4b988d07bc04a94c333</ManifestVersion>
+    <ManifestVersion>SHA-512:e017765186df426e79095787dda88c0429972ebfa9d6888dca99d85ff3cd3be4b01b6599d77f3ff3056a6cb851d6cb234ec98fb099ca342d5faf6cbd7b55ee2a</ManifestVersion>
     <Policies>
         <Policy>AM-ContentType</Policy>
         <Policy>AM-TokenResponse</Policy>
